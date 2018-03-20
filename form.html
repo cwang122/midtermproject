@@ -1,0 +1,248 @@
+<!doctype html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+
+    <title>SU Data Science Club</title>
+  </head>
+  <body>
+    
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between" >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/icon.png" width="30" height="30" class="d-inline-block align-top" id="suicon" alt="su">
+                SU Data Science Club
+              </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="Home.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="members.html">Members</a>
+                    </li>
+                    <li class="nav-item active mr-2">
+                    <a class="nav-link" href="form.html">Join Us Now!</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Content of the Form starts here-->
+
+    <header class="form-header jumbotron-fluid" id="form-header" style="background-color:black">
+        <div class="container">
+            <h1 class="display-4">Be one of us now</h1>
+            <p class="lead">Join us and let us create a better world!</p>
+        </div>
+    </header>
+
+    <main class="form-items" id="regist" >
+        <div class="container">
+            <form>
+                <section class="call-out" >The first step to be a hero was...</section>
+                <div class="form-group">
+                        <label for="exampleFormControlInput">Your Honourable Name</label>
+                    <div class="form-row">
+                        
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                        <label for="exampleFormControlInput"></label>
+                        </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                        <label for="exampleFormControlInput"></label>
+                        </div>
+                    </div>
+                </div>
+                          
+                <div class="form-group">
+                    <label>Your Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect">College Roles</label>
+                    <select class="form-control" id="exampleFormControlSelect">
+                    <option>Freshman</option>
+                    <option>Sophomore</option>
+                    <option>Junior</option>
+                    <option>Senior</option>
+                    <option>Graduate</option>
+                    <option>Ph.D</option>
+                    <option>Faculty/Research Fellow</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea">Why you want to join the club?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea">Please tell us more about yourself!</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h6 class="form-branch">Which Branch You Prefer to Join?</h6>
+                    </div>
+        
+                    <div class="col-12 col-md-6 mt-2 mb-2">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-sm-4">
+                                <img class="rounded" src="images/form1.jpg" alt="Product Image" />
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <b class="h5">Machine Learning</b>
+                                <span class="badge badge-danger" >HOT!</span>
+                                <p>Machine Learning is the key to data science</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-md-6 mt-2 mb-2">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-sm-4">
+                                <img class="rounded" src="images/form2.jpg" alt="Product Image" />
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <b class="h5">Data Organizing</b>
+                                <span class="badge badge-success" style="color:black">RECRUITING!</span>
+                                <p>Data organizing is to ensure the structure of the datasets.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-md-6 mt-2 mb-2">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-sm-4">
+                                <img class="rounded" src="images/form3.png" alt="Product Image" />
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <b class="h5">Data Cleansing</b>
+                                <span class="badge badge-secondary" >FULL!</span>
+                                <p>Data Cleansing is to clean the data and make it beautiful.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-md-6 mt-2 mb-2">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-sm-4">
+                                <img class="rounded" src="images/form4.jpg" alt="Product Image" />
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <b class="h5">R Studying</b>
+                                <span class="badge badge-success" style="color:black">New!</span>
+                                <p>R is the language to manipulate the data.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Please Pick At Least One Group You Want To Join</label>
+                </br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Machine Learning</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox2">Data Organzing</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" disabled>
+                        <label class="form-check-label" for="inlineCheckbox3">Data Cleansing (Full)</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox2">R Study</label>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn">Join Our Club In 1 Click!</button>
+                </div>
+                
+
+            </form>
+        </div>
+    </main>
+
+
+
+    <!--Here is the footer -->
+
+    <footer class="footer bg-dark p-4">
+            <div class="container">
+                <div class="row">
+                    <span class="copyright">
+                        <p>&copy; 2017-2018 SU Data Science Club</p>
+                    </span>
+                    <a class="icon" >
+                        <span data-feather="facebook"></span>
+                    </a>
+
+                    <a class="icon" >
+                        <span data-feather="twitter"></span>
+                    </a>
+
+                    <a class="icon" >
+                        <span data-feather="youtube"></span>
+                    </a>
+
+                    <a class="icon" >
+                        <span data-feather="instagram"></span>
+                    </a>
+
+                    <p class="float-rights">
+                        <a href="#" id="back-to-top">Back to top</a>
+                    </p> |
+                    <p class="contact_uss">
+                        <a href="#" id="contact-us">Contact Us</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+  </body>
+</html>

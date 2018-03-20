@@ -1,0 +1,537 @@
+/*This is the start of css */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Work+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.jumbotron {
+    height: 800px;
+    margin-bottom: 0;
+    background-image: url('images/main-bg.jpg');
+    border-radius:0;
+}
+
+.jumbotron > .container {
+    display:flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+}
+
+.about h2 {
+    font-size:2em;
+    font-weight:700;
+    font-family:'Oswald',sans-serif;
+    margin-bottom:24px;
+}
+
+.about {
+    text-align:center; 
+    padding:70px 0; 
+    background-color:#e2e2e2;
+}
+
+.about .row {
+    justify-content:center;
+}
+
+
+
+/* This is CSS Grid section */
+*, *:before, *:after {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+    display:inline-block;
+    vertical-align:baseline;
+}
+
+.row {
+    display:flex;
+    max-width:1152px;
+    margin:0 auto;
+}
+
+*[class*="-column"], *[class*="-columns"] {
+    padding:0 12px;
+}
+
+.one-column, .one-columns {
+    flex:0 0 8.3333%;
+}
+
+.two-columns {
+    flex: 0 0 16.6667%;
+}
+
+.three-columns {
+    flex: 0 0 25%;
+}
+
+.four-columns {
+    flex: 0 0 33.3333%;
+}
+
+.five-columns {
+    flex: 0 0 41.6667%;
+}
+
+.six-columns {
+    flex: 0 0 50%;
+}
+
+.seven-columns {
+    flex: 0 0 58.3333%;
+}
+
+.eight-columns {
+    flex: 0 0 66.6667%;
+}
+
+.nine-columns {
+    flex: 0 0 75%;
+}
+
+.ten-columns {
+    flex: 0 0 83.3333%;
+}
+
+.eleven-columns {
+    flex: 0 0 91.6667%;
+}
+
+.twelve-columns {
+    flex: 0 0 100%;
+}
+
+
+
+
+
+/* This is for Our Prospect Section*/
+
+
+.testimonials {
+    padding:60px 0;
+    background-color:white;
+}
+
+.testimonials h2 {
+    font-size:2em;
+    font-weight:700;
+    font-family:'Oswald',sans-serif;
+    margin-bottom:24px;
+    text-align:center;
+}
+
+.testimonials-item {
+    display:flex;
+    align-items:center;
+    margin-bottom:60px;
+    font-style:italic;
+}
+
+.footer {
+    background-color:#424242;
+    color:#fff;
+    padding:24px 0;
+    text-align:center;
+}
+
+.prospect-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 1.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+    .testimonials-item {
+        align-items:flex-start;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .about-info {
+        flex:0 0 100%;
+    }
+
+    .what-we-do-item {
+        flex:0 0 100%;
+    }
+
+    .testimonials-item {
+        flex-direction:column;
+    }
+
+    .testimonials-image {
+        flex:0 0 100%;
+    }
+
+    .testimonials-quote {
+        flex:0 0 100%;
+    }
+
+    .testimonials-item-reversed .testimonials-image {
+        order:-1;
+    }
+}
+
+
+/* This is for the Form page of the website */
+
+.container > .alert {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-header {
+    height: 230px;
+    background-color: rgb(187, 181, 181);
+}
+
+.form-header > .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.form-items > .container {
+    margin-top:20px;
+}
+
+/* For the Footer */
+
+.footer {
+
+}
+
+.float-rights {
+    margin-left: auto;
+    margin-right: 5px;
+    color: bisque;
+}
+
+.contact_uss {
+    margin-left: 5px;
+    color: bisque;
+}
+
+.copyright {
+    font-weight: 1.2em;
+}
+
+/* This is for the project page */
+
+.d-block {
+    height: 600px;
+}
+
+.card-group {
+    margin-top: 5px;
+}
+
+.progress {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.container > h4 {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* This is for memebers page*/
+
+/* This is for button and icons */
+
+.icon {
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.btn {
+    background: transparent;
+    background-image: -webkit-linear-gradient(top, white, white);
+    background-image: -moz-linear-gradient(top, white, white);
+    background-image: -ms-linear-gradient(top, white, white);
+    background-image: -o-linear-gradient(top, white, white);
+    background-image: linear-gradient(to bottom, white, white);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: inherit;
+    color: #1f628d;
+    font-size: 18px;
+    padding: 10px 38px 10px 38px;
+    border: solid #1f628d 3px;
+    text-decoration: none;
+  }
+
+  #search {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, white, white);
+    background-image: -moz-linear-gradient(top, white, white);
+    background-image: -ms-linear-gradient(top, white, white);
+    background-image: -o-linear-gradient(top, white, white);
+    background-image: linear-gradient(to bottom, white, white);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: inherit;
+    color: #1f628d;
+    font-size: 15px;
+    padding: 7px 35px 7px 35px;
+    border: solid #1f628d 3px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1f628d;
+    background-image: -webkit-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -moz-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -ms-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -o-linear-gradient(top, #1f628d, #1f628d);
+    background-image: linear-gradient(to bottom, #1f628d, #1f628d);
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+
+  #search:hover {
+    background: #1f628d;
+    background-image: -webkit-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -moz-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -ms-linear-gradient(top, #1f628d, #1f628d);
+    background-image: -o-linear-gradient(top, #1f628d, #1f628d);
+    background-image: linear-gradient(to bottom, #1f628d, #1f628d);
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+
+  
+  
+  .nav-item {
+    background-color: inherit;
+    color: #424242;
+      
+  }
+
+  .nav-item:hover {
+    transform: scale(1.1);
+}
+
+@keyframes spinning {
+    0% {}
+    25% { transform: rotate(90deg);}
+    50% {transform: rotate(180deg); }
+    750% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#suicon {animation:spinning 3s linear 0s infinite;}
+
+
+.carpet {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    z-index: -100;
+}
+
+
+.about {
+    background: transparent;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+
+    .about {
+        background-color: #1f628d;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .about {
+        background-color: #1f628d;
+    }
+
+}
+
+
+.nav {
+    color: white;
+    background-color: #424242;
+}
+
+
+.prospect-title {
+    font-size:25px;
+    font-weight:lighter;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#regist {
+    margin-bottom:50px;
+}
+
+#project-bottom {
+    margin-bottom: 70px;
+}
+
+.testimonials-image:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+#roster-header {
+    background-image: url('images/hero.jpg');
+}
+
+#form-header {
+    background-image: url('images/form-bg.jpg');
+    color: white;
+}
+
+.testimonials-image {
+    padding: 0;
+}
+
+
+.testimonials {
+    background-color: rgb(236, 232, 232);
+}
+
+.call-out {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.titles {
+    font-size:30px;
+}
+
+#prospect {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+#data-1:hover::before {
+    content: "Data Science = Digital Frontier = Our Future";
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height:100%;
+}
+
+#data-2:hover::before {
+    content: "Machine Learning + Data Science = Future AI";
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height:100%;
+}
+
+#data-3:hover::before {
+    content: "As the club member, we are the element of this Grid";
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-weight: 300;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height:100%;
+}
+
+#main-button {
+    background: transparent;
+}
+
+#main-button:hover {
+    background:#1f628d;
+}
+
+/* Text Color */
+
+
+.prospect-titles {
+    font-family: '';
+    font-size: 1.5em;
+    text-align:center;
+}
+
+.bottom-titles {
+    text-align: center;
+}
+
+.testimonials-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.d-block {
+    height: auto;
+}
+
+.bg-img {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#back-to-top {
+    color: #ffffff;
+}
+
+#contact-us {
+    color: #ffffff;
+}
+
+.carousel-inner {
+    background-color: black;
+}
+
+.text-mute {
+    color: #0000d2;
+}
+
+#project-pro {
+    color: black !important;
+}
